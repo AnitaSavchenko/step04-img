@@ -23,7 +23,11 @@ Body{
     text-align: center;
 }
 
-.wrapper img{
+.wrapper h1{
+    line-height: 130%;
+}
+
+.imgArticle{
     width: 100%;
 
 }
@@ -36,11 +40,23 @@ Body{
     border: 3px solid #ccc;
     border-radius: 25px;
     text-decoration: none;
+    transition: 0.6s;
 }
+
+.wrapper a:hover{
+    color: #555;
+    background-color: #fff;
+}
+
 .wrapper p{
     margin-bottom: 15px;
 }
 
 .wrapper .lastText{
     margin-bottom: 35px;
+}
+
+.imgBtn {
+    margin-right: 20px;
+    height: 18px;
 }
